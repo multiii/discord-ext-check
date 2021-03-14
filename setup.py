@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-  name = 'discord-ext-checks',
-  packages = ['discord-ext-checks'],
+  name = 'discord.ext.checks',
+  packages = ['discord.ext.checks'],
   version = '0.1', 
   license = 'MIT',
   description = 'A module which implements various new decorators to check for certain conditions in your discord commands',
