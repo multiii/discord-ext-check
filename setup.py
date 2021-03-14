@@ -11,9 +11,8 @@ setup(
   url = 'https://github.com/multi-yt76/discord-ext-checks',
   download_url = 'https://github.com/multi-yt76/discord-ext-checks/archive/v0.1.tar.gz',
   keywords = ['discord', 'check', 'functions'],
-  install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
+  install_requires=[
+          'discord',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',
