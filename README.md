@@ -5,7 +5,7 @@ discord-ext-checks is a module which implements various decorator functions, to 
 ## Installation:
 
 Installation is done using pip:
-<link_here>
+https://pypi.org/project/discord-ext-checks/
 
 ## Usage:
 
