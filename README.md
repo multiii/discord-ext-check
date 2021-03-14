@@ -18,22 +18,19 @@ from discord.ext import checks
 
 #.. Creating your Discord Bot ...
 
-#Checking if the author is the Server Owner
-
+""" Checking if the author is the Server Owner """
 @bot.command()
 @checks.is_guild_owner()
 async def foo(ctx):
     await ctx.send(f"{ctx.author.mention} is the Server Owner!")
 
-#Checking if 3 arguments were passed into the function
-
+""" Checking if 3 arguments were passed into the function """
 @bot.command()
 @checks.has_args(3)
 async def bar(ctx, x, y):
     await ctx.send(f"The result is {x + y}")
     
-#Error Handling
-
+""" Error Handling """
 @bar.error
 async def bar_error(ctx, error):
     if isinstance(error, checks.NotEnoughArgs):
@@ -41,8 +38,7 @@ async def bar_error(ctx, error):
     else:
         raise error
         
-#Checking if the author's id is in the list of Authorized Members
-
+""" Checking if the author's id is in the list of Authorized Members """
 authorized_members = [394320584089010179, 446670262440820746, 449864700306522112]
 
 @bot.command()
@@ -50,8 +46,7 @@ authorized_members = [394320584089010179, 446670262440820746, 449864700306522112
 async def baz(ctx):
     await ctx.send("You are an Authorized Member.")
     
-#Error Handling
-
+""" Error Handling """
 @baz.error
 async def baz_error(ctx, error):
     if isinstance(error, checks.MissingID):
