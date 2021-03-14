@@ -59,3 +59,4 @@ bot.run(token)
 
 ## Notes:
 - A Documentation for this module will be coming soon..
+- If you need any Help related to this module, DM me on Discord @Multiii#7676
