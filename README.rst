@@ -8,7 +8,11 @@ bot
 Installation:
 -------------
 
-Installation is done using pip:
+Installation is done using pip: https://pypi.org/project/discord-ext-check/
+
+.. code:: py
+
+    pip install discord-ext-check
 
 Usage:
 ------
