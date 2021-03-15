@@ -30,7 +30,6 @@ class NotEnoughArgs(CheckFailure):
     """
 
     def __init__(self, a):
-        print(a)
         self.a = a
         super().__init__(
             f"Atleast {a} Args have to be passed while using this Command for it to work.")
