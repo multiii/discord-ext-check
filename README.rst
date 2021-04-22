@@ -70,5 +70,5 @@ Examples:
 Notes:
 ------
 
--  A Documentation for this module will be coming soon..
--  If you need any help related to this module, DM me @Multiii#7676
+-  The Official Documentation: https://multi-yt76.gitbook.io/discord-ext-check/
+-  If you need any help related to this module, DM me @multiii#7676
